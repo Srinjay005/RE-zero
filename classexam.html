@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="styleexam.css">
+</head>
+<body>
+
+ <h3>Symentic Woods</h3>
+<form>
+  <table>
+    <tr>
+      <td><label for="cname">Customer Name</label></td>
+      <td><input type="text" name="cname" id="cname" placeholder="Enter the customer name" required></td>
+    </tr>
+    <tr>
+      <td><label for="phno">Phone Number</label></td>
+      <td><input type="number" name="phno" id="phno" placeholder="Enter the phone number" required></td>
+    </tr>
+    <tr>
+      <td><label for="pid">Product Id</label></td>
+      <td><input type="text" name="pid" id="pid" placeholder="Enter the product id" required></td>
+    </tr>
+    <tr> 
+      <td><label for="orderdate">Date of Order</label></td>
+      <td><input type="date" name="orderdate" id="orderdate" required></td>
+    </tr>
+    <tr>
+      <td><label for="qlevel">Quality Level</label></td>
+      <td><select id="qlevel" name="qlevel" required>
+        <option>Select Quality Level..</option>
+        <option value="Level 01">Level 01</option>
+        <option value="Level 02">Level 02</option>
+        <option value="Level 03">Level 03</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="noOfProducts">Number of Products</label></td>
+      <td><input type="number" name="noOfProducts" id="noOfProducts" placeholder="Enter the number of products" required></td>
+    </tr>
+    <tr>
+      <td><label for="kms">Number of KMS for delivery</label></td>
+      <td><input type="number" name="kms" id="kms" placeholder="Enter the number of kms" required></td>
+    </tr>
+  </table>
+  <p>
+  <input id="submit" type="submit" value="CONFIRM ORDER">
+  </p>
+</form>
+
+
+
+</body>
+</html>
